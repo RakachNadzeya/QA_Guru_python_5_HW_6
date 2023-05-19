@@ -92,10 +92,6 @@ def open_browser(browser_name):
     assert actual_result == "Open Browser [Chrome]"
 
 
-# def print_function_name(func, *args):
-#     return (f'{func.__name__.replace("_", " ").title()} [{", ".join(args)}]')
-#
-
 def go_to_companyname_homepage(page_url):
     actual_result = go_to_companyname_homepage.__name__.replace("_", " ").title() + f" [{page_url}]"
     print(actual_result, end='\n')
